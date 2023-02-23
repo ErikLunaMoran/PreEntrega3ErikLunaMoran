@@ -75,6 +75,7 @@ h3 {
 p {
   font-size: 2rem;
   font-family: Arial, Helvetica;
+  margin-bottom: -1rem; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
 /* INDEX */
@@ -112,7 +113,12 @@ p {
 
 .img-iconos {
   display: inline-block;
-  margin-inline: 4rem;
+  margin-inline: 1rem;
+  width: 275px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+.img-icons h2 {
+  width: 260px; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
 /* section 3 Cartita de Gatos*/
