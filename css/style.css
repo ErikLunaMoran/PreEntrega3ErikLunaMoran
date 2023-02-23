@@ -38,6 +38,19 @@ header {
   align-items: center;
 }
 
+.row a img {
+  padding-left: 0px; /* Corrección de bootstrap que afectaba dimensiones */
+  width: 102.5px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+.row a {
+  width: 110px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+nav.navbar.navbar-expand-lg.menu.py-3 {
+  width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
 /* .nav__list {
   display: flex;
   list-style-type: none;
