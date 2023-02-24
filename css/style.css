@@ -38,6 +38,11 @@ header {
   align-items: center;
 }
 
+.row_index {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .row a img {
   padding-left: 0px; /* Corrección de bootstrap que afectaba dimensiones */
   width: 102.5px; /* Corrección de bootstrap que afectaba dimensiones */
@@ -103,10 +108,10 @@ p {
   padding-bottom: 3rem;
 }
 
-.intro {
+/*.intro {
   width: 48%;
-  /* display: inline-block; */
-} /* intro */
+   display: inline-block; 
+} intro */
 
 .intro-imagen {
   width: 100%;
@@ -114,6 +119,7 @@ p {
 
 .intro-parrafo {
   color: white;
+  padding-bottom: 2rem;
 }
 
 /* section 2 */
