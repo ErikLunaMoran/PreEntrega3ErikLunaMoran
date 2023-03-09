@@ -153,6 +153,7 @@ p {
 
 .gatos-section {
   background-color: rgb(146, 146, 146);
+  padding-block: 3rem;
 }
 
 .section3-titulo {
@@ -192,6 +193,7 @@ p {
   border: none;
   padding: 1rem;
   border-radius: 1rem;
+  font-size: 1.5rem;
 }
 
 .cartita-imagen,
@@ -299,7 +301,7 @@ p {
 
 /* CONTACTO */
 
-#con-section {
+.con-section {
   background-color: rgb(146, 146, 146);
 }
 
@@ -334,20 +336,20 @@ fieldset {
   padding: 0 10px 0 45px;
 }
 
-#con-form-section {
+.con-form-section {
   background-color: rgb(99, 99, 99);
 }
 
 form {
   background-color: rgb(146, 146, 146);
 }
-#con-form {
+.con-form {
   font-size: 2rem;
   color: white;
   padding-block: 2rem;
 }
 
-#con-map-section {
+.con-map-section {
   background-color: rgb(146, 146, 146);
   text-align: center;
   padding-block: 3rem;
@@ -355,7 +357,7 @@ form {
 
 /* AYUDA */
 
-#ayuda-section {
+.ayuda-section {
   background-color: rgb(146, 146, 146);
 }
 
@@ -363,7 +365,7 @@ form {
   padding-block: 3rem;
 }
 
-#gato-video {
+.gato-video {
   text-align: center;
   padding-bottom: 4rem;
 }
@@ -443,8 +445,16 @@ form {
   text-decoration: none;
 }
 
+.footer-bottom-copy p {
+  font-size: 1.5rem;
+}
+
 .text-redes {
   color: white;
+  margin: 0.5rem 0 1rem 0;
+}
+.text-redes p {
+  font-size: 1.5rem;
 }
 
 /* NavBar Bootstrap */
