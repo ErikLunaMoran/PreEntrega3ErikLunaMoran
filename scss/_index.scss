@@ -1,0 +1,105 @@
+.row_index {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  column-gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .row_index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+/* INDEX */
+
+.intro-section {
+  background-color: rgb(146, 146, 146);
+  padding-top: 1rem;
+}
+
+.intro-titulo {
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.intro-imagen {
+  width: 100%;
+}
+
+.intro-parrafo {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+/* section 2 */
+
+.iconos-section {
+  background-color: rgb(99, 99, 99);
+  padding: 3rem;
+  text-align: center;
+}
+
+.img-iconos {
+  display: inline-block;
+  margin-inline: 1rem;
+  /* width: 275px;  Corrección de bootstrap que afectaba dimensiones */
+}
+
+.img-icons h2 {
+  width: 260px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+/* section 3 Cartita de Gatos*/
+
+.gatos-section {
+  background-color: rgb(146, 146, 146);
+  padding-block: 3rem;
+}
+
+.section3-titulo {
+  padding-top: 2rem;
+  font-size: 4rem;
+  color: rgb(253, 155, 255);
+}
+
+.cartita {
+  background-color: rgb(112, 112, 112);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  margin-inline: 1.5%;
+}
+
+.container-cartitas {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cartita-imagen {
+  width: 100%;
+}
+
+.cartita-titulo {
+  font-size: 3rem;
+  color: rgb(253, 155, 255);
+}
+
+.cartita-parrafo {
+  color: white;
+}
+
+.cartita-boton {
+  background-color: rgb(253, 155, 255);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.cartita-imagen,
+.cartita-titulo,
+.cartita-parrafo {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "desafio_tres",
+  "version": "1.0.0",
+  "description": "diff.astextplain.textconv=astextplain\r filter.lfs.clean=git-lfs clean -- %f\r filter.lfs.smudge=git-lfs smudge -- %f\r filter.lfs.process=git-lfs filter-process\r filter.lfs.required=true\r http.sslbackend=openssl\r http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt\r core.autocrlf=true\r core.fscache=true\r core.symlinks=false\r pull.rebase=false\r credential.helper=manager\r credential.https://dev.azure.com.usehttppath=true\r init.defaultbranch=master\r core.editor=\"C:\\Users\\Eriksen Moon\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait\r user.name=Erik Luna Morán\r user.email=eriklunamoran@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,57 @@
+/* NOSOTROS */
+
+.nos-section {
+  background-color: rgb(146, 146, 146);
+}
+
+.titulo-nos {
+  padding: 3rem 0 3rem 0;
+}
+
+.text-nos {
+  text-align: center;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+/* Grid galería de gatos */
+.container-grid {
+  display: grid;
+  width: 100%;
+  /* height: 100vh; */
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "Gato-galeria-1 Gato-galeria-2 Gato-galeria-3"
+    "Gato-galeria-1 Gato-galeria-4 Gato-galeria-5";
+}
+
+.gato-galeria-1 {
+  grid-area: Gato-galeria-1;
+  background-color: aqua;
+}
+
+.gato-galeria-2 {
+  grid-area: Gato-galeria-2;
+  background-color: beige;
+}
+
+.gato-galeria-3 {
+  grid-area: Gato-galeria-3;
+  background-color: #212121;
+}
+
+.gato-galeria-4 {
+  grid-area: Gato-galeria-4;
+  background-color: violet;
+}
+
+.gato-galeria-5 {
+  grid-area: Gato-galeria-5;
+  background-color: tomato;
+}
+
+.container-grid div {
+  display: flex;
+  justify-content: center;
+}

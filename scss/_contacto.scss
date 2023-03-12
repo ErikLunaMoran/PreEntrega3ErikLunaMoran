@@ -1,0 +1,55 @@
+/* CONTACTO */
+
+.con-section {
+  background-color: rgb(146, 146, 146);
+}
+
+.contacto-titulo {
+  padding-top: 3rem;
+}
+
+.text-con {
+  text-align: center;
+  color: white;
+  padding-block: 3rem;
+  padding-inline: 5%;
+  width: 100%;
+}
+
+fieldset {
+  width: min(600px, 100%);
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(146, 146, 146);
+}
+
+.macho-hembra {
+  display: flex;
+}
+
+.machopadding {
+  padding: 0 10px 0 0;
+}
+
+.hembrapadding {
+  padding: 0 10px 0 45px;
+}
+
+.con-form-section {
+  background-color: rgb(99, 99, 99);
+}
+
+form {
+  background-color: rgb(146, 146, 146);
+}
+.con-form {
+  font-size: 2rem;
+  color: white;
+  padding-block: 2rem;
+}
+
+.con-map-section {
+  background-color: rgb(146, 146, 146);
+  text-align: center;
+  padding-block: 3rem;
+}

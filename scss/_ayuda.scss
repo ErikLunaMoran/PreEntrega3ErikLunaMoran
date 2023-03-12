@@ -1,0 +1,62 @@
+/* AYUDA */
+
+.ayuda-section {
+  background-color: rgb(146, 146, 146);
+}
+
+.ayuda-titulo {
+  padding-block: 3rem;
+}
+
+.gato-video {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.text-ayu {
+  text-align: center;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+/* Grid de galeria gatos callejeros */
+.container-grid2 {
+  display: grid;
+  width: 100%;
+  /* height: 100vh; */
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "Gato-calle-1 Gato-calle-3 Gato-calle-4"
+    "Gato-calle-2 Gato-calle-3 Gato-calle-5";
+}
+
+.gato-calle-1 {
+  grid-area: Gato-calle-1;
+  background-color: aqua;
+}
+
+.gato-calle-2 {
+  grid-area: Gato-calle-2;
+  background-color: beige;
+}
+
+.gato-calle-3 {
+  grid-area: Gato-calle-3;
+  background-color: #212121;
+}
+
+.gato-calle-4 {
+  grid-area: Gato-calle-4;
+  background-color: violet;
+}
+
+.gato-calle-5 {
+  grid-area: Gato-calle-5;
+  background-color: tomato;
+}
+
+.container-grid2 div {
+  display: flex;
+  justify-content: center;
+}

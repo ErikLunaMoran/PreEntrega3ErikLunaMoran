@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   margin: 0;
@@ -16,7 +17,6 @@ img {
 }
 
 /* GENERAL */
-
 html {
   font-size: 62.5%;
 }
@@ -24,6 +24,7 @@ html {
 body {
   font-family: "Itim", cursive;
 }
+
 header {
   background-color: rgb(112, 112, 112);
   padding: 0.5rem 0;
@@ -38,20 +39,6 @@ header {
   align-items: center;
 }
 
-.row_index {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  column-gap: 2rem;
-}
-
-@media (min-width: 992px) {
-  .row_index {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-  }
-}
-
 .row a img {
   padding-left: 0px; /* Corrección de bootstrap que afectaba dimensiones */
   width: 102.5px; /* Corrección de bootstrap que afectaba dimensiones */
@@ -60,26 +47,6 @@ header {
 .row a {
   width: 110px; /* Corrección de bootstrap que afectaba dimensiones */
 }
-
-nav.navbar.navbar-expand-lg.menu.py-3 {
-  width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
-}
-
-/* .nav__list {
-  display: flex;
-  list-style-type: none;
-}
-
-.nav__item {
-  margin-left: 1.5rem;
-}
-
-.nav__link {
-  text-decoration: none; /* para sacar el subrrallado --
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.5rem;
-} */
 
 h1 {
   font-size: 4rem;
@@ -105,8 +72,34 @@ p {
   margin-bottom: -1rem; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
-/* INDEX */
+nav.navbar.navbar-expand-lg.menu.py-3 {
+  width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
+}
 
+/* NavBar Bootstrap */
+.menu {
+  background-color: rgb(112, 112, 112);
+}
+
+.nav-item a {
+  color: white;
+  font-size: 2rem;
+}
+
+.row_index {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  column-gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .row_index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+/* INDEX */
 .intro-section {
   background-color: rgb(146, 146, 146);
   padding-top: 1rem;
@@ -116,11 +109,6 @@ p {
   text-align: left;
   padding-bottom: 3rem;
 }
-
-/*.intro {
-  width: 48%;
-   display: inline-block; 
-} intro */
 
 .intro-imagen {
   width: 100%;
@@ -132,7 +120,6 @@ p {
 }
 
 /* section 2 */
-
 .iconos-section {
   background-color: rgb(99, 99, 99);
   padding: 3rem;
@@ -150,7 +137,6 @@ p {
 }
 
 /* section 3 Cartita de Gatos*/
-
 .gatos-section {
   background-color: rgb(146, 146, 146);
   padding-block: 3rem;
@@ -203,7 +189,6 @@ p {
 }
 
 /* NOSOTROS */
-
 .nos-section {
   background-color: rgb(146, 146, 146);
 }
@@ -225,9 +210,7 @@ p {
   /* height: 100vh; */
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "Gato-galeria-1 Gato-galeria-2 Gato-galeria-3"
-    "Gato-galeria-1 Gato-galeria-4 Gato-galeria-5";
+  grid-template-areas: "Gato-galeria-1 Gato-galeria-2 Gato-galeria-3" "Gato-galeria-1 Gato-galeria-4 Gato-galeria-5";
 }
 
 .gato-galeria-1 {
@@ -261,7 +244,6 @@ p {
 }
 
 /* NOVEDADES */
-
 .nov-section {
   background-color: rgb(146, 146, 146);
 }
@@ -300,7 +282,6 @@ p {
 }
 
 /* CONTACTO */
-
 .con-section {
   background-color: rgb(146, 146, 146);
 }
@@ -343,6 +324,7 @@ fieldset {
 form {
   background-color: rgb(146, 146, 146);
 }
+
 .con-form {
   font-size: 2rem;
   color: white;
@@ -356,7 +338,6 @@ form {
 }
 
 /* AYUDA */
-
 .ayuda-section {
   background-color: rgb(146, 146, 146);
 }
@@ -383,9 +364,7 @@ form {
   /* height: 100vh; */
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "Gato-calle-1 Gato-calle-3 Gato-calle-4"
-    "Gato-calle-2 Gato-calle-3 Gato-calle-5";
+  grid-template-areas: "Gato-calle-1 Gato-calle-3 Gato-calle-4" "Gato-calle-2 Gato-calle-3 Gato-calle-5";
 }
 
 .gato-calle-1 {
@@ -419,7 +398,6 @@ form {
 }
 
 /* FOOTER */
-
 .footer {
   background-color: black;
   padding-top: 1rem;
@@ -453,15 +431,9 @@ form {
   color: white;
   margin: 0.5rem 0 1rem 0;
 }
+
 .text-redes p {
   font-size: 1.5rem;
 }
 
-/* NavBar Bootstrap */
-.menu {
-  background-color: rgb(112, 112, 112);
-}
-.nav-item a {
-  color: white;
-  font-size: 2rem;
-}
+/*# sourceMappingURL=style.css.map */

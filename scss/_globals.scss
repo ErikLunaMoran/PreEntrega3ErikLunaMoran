@@ -1,0 +1,72 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+/* GENERAL */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Itim", cursive;
+}
+header {
+  background-color: rgb(112, 112, 112);
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row a img {
+  padding-left: 0px; /* Corrección de bootstrap que afectaba dimensiones */
+  width: 102.5px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+.row a {
+  width: 110px; /* Corrección de bootstrap que afectaba dimensiones */
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(255, 221, 0);
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgb(255, 171, 69);
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.5rem;
+  color: rgb(255, 221, 0);
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  font-family: Arial, Helvetica;
+  margin-bottom: -1rem; /* Corrección de bootstrap que afectaba dimensiones */
+}
