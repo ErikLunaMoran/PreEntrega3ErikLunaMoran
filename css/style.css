@@ -86,12 +86,7 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   font-size: 2rem;
 }
 
-.row_index {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  column-gap: 2rem;
-}
-
+/* INDEX */
 @media (min-width: 992px) {
   .row_index {
     display: grid;
@@ -99,22 +94,24 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
     column-gap: 2rem;
   }
 }
-/* INDEX */
+/* Section 1 */
 .intro-section {
   background-color: rgb(146, 146, 146);
   padding-top: 1rem;
 }
-
-.intro-titulo {
+.intro-section .row_index {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  column-gap: 2rem;
+}
+.intro-section .row_index .intro-imagen {
+  width: 100%;
+}
+.intro-section .row_index .intro-titulo {
   text-align: left;
   padding-bottom: 3rem;
 }
-
-.intro-imagen {
-  width: 100%;
-}
-
-.intro-parrafo {
+.intro-section .row_index .intro-parrafo {
   color: white;
   padding-bottom: 2rem;
 }
@@ -125,14 +122,12 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   padding: 3rem;
   text-align: center;
 }
-
-.img-iconos {
+.iconos-section .img-iconos {
   display: inline-block;
   margin-inline: 1rem;
   /* width: 275px;  Corrección de bootstrap que afectaba dimensiones */
 }
-
-.img-icons h2 {
+.iconos-section .img-iconos h2 {
   width: 260px; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
@@ -141,40 +136,33 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   background-color: rgb(146, 146, 146);
   padding-block: 3rem;
 }
-
-.section3-titulo {
+.gatos-section .container-cartitas {
+  margin: 0 auto;
+  width: 80%;
+}
+.gatos-section .container-cartitas .section3-titulo {
   padding-top: 2rem;
   font-size: 4rem;
   color: rgb(253, 155, 255);
 }
-
-.cartita {
+.gatos-section .container-cartitas .cartita {
   background-color: rgb(112, 112, 112);
   padding: 1rem;
   border-radius: 1rem;
   display: inline-block;
   margin-inline: 1.5%;
 }
-
-.container-cartitas {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.cartita-imagen {
+.gatos-section .container-cartitas .cartita .cartita-imagen {
   width: 100%;
 }
-
-.cartita-titulo {
+.gatos-section .container-cartitas .cartita .cartita-titulo {
   font-size: 3rem;
   color: rgb(253, 155, 255);
 }
-
-.cartita-parrafo {
+.gatos-section .container-cartitas .cartita .cartita-parrafo {
   color: white;
 }
-
-.cartita-boton {
+.gatos-section .container-cartitas .cartita .cartita-boton {
   background-color: rgb(253, 155, 255);
   border: none;
   padding: 1rem;
@@ -189,108 +177,92 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 }
 
 /* NOSOTROS */
+/* Section 1 */
 .nos-section {
   background-color: rgb(146, 146, 146);
 }
-
-.titulo-nos {
+.nos-section .titulo-nos {
   padding: 3rem 0 3rem 0;
 }
-
-.text-nos {
+.nos-section .text-nos {
   text-align: center;
   color: white;
   padding-bottom: 4rem;
 }
 
-/* Grid galería de gatos */
+/* Section 2 Grid galería de gatos */
 .container-grid {
   display: grid;
   width: 100%;
-  /* height: 100vh; */
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "Gato-galeria-1 Gato-galeria-2 Gato-galeria-3" "Gato-galeria-1 Gato-galeria-4 Gato-galeria-5";
 }
-
-.gato-galeria-1 {
-  grid-area: Gato-galeria-1;
-  background-color: aqua;
-}
-
-.gato-galeria-2 {
-  grid-area: Gato-galeria-2;
-  background-color: beige;
-}
-
-.gato-galeria-3 {
-  grid-area: Gato-galeria-3;
-  background-color: #212121;
-}
-
-.gato-galeria-4 {
-  grid-area: Gato-galeria-4;
-  background-color: violet;
-}
-
-.gato-galeria-5 {
-  grid-area: Gato-galeria-5;
-  background-color: tomato;
-}
-
 .container-grid div {
   display: flex;
   justify-content: center;
+}
+.container-grid .gato-galeria-1 {
+  grid-area: Gato-galeria-1;
+  background-color: aqua;
+}
+.container-grid .gato-galeria-2 {
+  grid-area: Gato-galeria-2;
+  background-color: beige;
+}
+.container-grid .gato-galeria-3 {
+  grid-area: Gato-galeria-3;
+  background-color: #212121;
+}
+.container-grid .gato-galeria-4 {
+  grid-area: Gato-galeria-4;
+  background-color: violet;
+}
+.container-grid .gato-galeria-5 {
+  grid-area: Gato-galeria-5;
+  background-color: tomato;
 }
 
 /* NOVEDADES */
 .nov-section {
   background-color: rgb(146, 146, 146);
 }
-
-.gato-nov {
-  /* width: 30%; */
+.nov-section .container-novedades {
+  margin: 0 auto;
+  width: 80%;
+}
+.nov-section .container-novedades .carta-novedades {
+  padding: 8rem 0 15rem 0;
+}
+.nov-section .container-novedades .carta-novedades .gato-nov {
   background-color: rgb(112, 112, 112);
   padding: 1rem;
   border-radius: 1rem;
   display: inline-block;
   margin-inline: 1.5%;
 }
-
-.container-novedades {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.carta-novedades {
-  padding: 8rem 0 15rem 0;
-}
-
-.img-nov {
+.nov-section .container-novedades .carta-novedades .gato-nov .img-nov {
   width: 100%;
 }
-
-.titulo-nov {
+.nov-section .container-novedades .carta-novedades .gato-nov .titulo-nov {
   font-size: 3rem;
   color: rgb(253, 155, 255);
   padding-bottom: 2rem;
 }
-
-.text-nov {
+.nov-section .container-novedades .carta-novedades .gato-nov .text-nov {
   text-align: center;
   color: white;
 }
 
 /* CONTACTO */
+/* Section 1 main*/
 .con-section {
   background-color: rgb(146, 146, 146);
 }
-
-.contacto-titulo {
+.con-section .contacto-titulo {
   padding-top: 3rem;
 }
-
-.text-con {
+.con-section .text-con {
   text-align: center;
   color: white;
   padding-block: 3rem;
@@ -298,39 +270,35 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   width: 100%;
 }
 
-fieldset {
+/* Section 2 Formulario */
+.con-form-section {
+  background-color: rgb(99, 99, 99);
+}
+.con-form-section .con-form {
+  font-size: 2rem;
+  color: white;
+  padding-block: 2rem;
+}
+.con-form-section .con-form form {
+  background-color: rgb(146, 146, 146);
+}
+.con-form-section .con-form form fieldset {
   width: min(600px, 100%);
   margin: 0 auto;
   padding: 20px;
   background-color: rgb(146, 146, 146);
 }
-
-.macho-hembra {
+.con-form-section .con-form form fieldset .macho-hembra {
   display: flex;
 }
-
-.machopadding {
+.con-form-section .con-form form fieldset .macho-hembra .machopadding {
   padding: 0 10px 0 0;
 }
-
-.hembrapadding {
+.con-form-section .con-form form fieldset .macho-hembra .hembrapadding {
   padding: 0 10px 0 45px;
 }
 
-.con-form-section {
-  background-color: rgb(99, 99, 99);
-}
-
-form {
-  background-color: rgb(146, 146, 146);
-}
-
-.con-form {
-  font-size: 2rem;
-  color: white;
-  padding-block: 2rem;
-}
-
+/* Section 3 Iframe Maps */
 .con-map-section {
   background-color: rgb(146, 146, 146);
   text-align: center;
@@ -338,26 +306,25 @@ form {
 }
 
 /* AYUDA */
+/* Section 1 main*/
 .ayuda-section {
   background-color: rgb(146, 146, 146);
+  /* Iframe Video */
 }
-
-.ayuda-titulo {
+.ayuda-section .ayuda-titulo {
   padding-block: 3rem;
 }
-
-.gato-video {
-  text-align: center;
-  padding-bottom: 4rem;
-}
-
-.text-ayu {
+.ayuda-section .text-ayu {
   text-align: center;
   color: white;
   padding-bottom: 3rem;
 }
+.ayuda-section .gato-video {
+  text-align: center;
+  padding-bottom: 4rem;
+}
 
-/* Grid de galeria gatos callejeros */
+/* Section 2 Galeria Gatos Callejeros */
 .container-grid2 {
   display: grid;
   width: 100%;
@@ -366,35 +333,29 @@ form {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "Gato-calle-1 Gato-calle-3 Gato-calle-4" "Gato-calle-2 Gato-calle-3 Gato-calle-5";
 }
-
-.gato-calle-1 {
-  grid-area: Gato-calle-1;
-  background-color: aqua;
-}
-
-.gato-calle-2 {
-  grid-area: Gato-calle-2;
-  background-color: beige;
-}
-
-.gato-calle-3 {
-  grid-area: Gato-calle-3;
-  background-color: #212121;
-}
-
-.gato-calle-4 {
-  grid-area: Gato-calle-4;
-  background-color: violet;
-}
-
-.gato-calle-5 {
-  grid-area: Gato-calle-5;
-  background-color: tomato;
-}
-
 .container-grid2 div {
   display: flex;
   justify-content: center;
+}
+.container-grid2 .gato-calle-1 {
+  grid-area: Gato-calle-1;
+  background-color: aqua;
+}
+.container-grid2 .gato-calle-2 {
+  grid-area: Gato-calle-2;
+  background-color: beige;
+}
+.container-grid2 .gato-calle-3 {
+  grid-area: Gato-calle-3;
+  background-color: #212121;
+}
+.container-grid2 .gato-calle-4 {
+  grid-area: Gato-calle-4;
+  background-color: violet;
+}
+.container-grid2 .gato-calle-5 {
+  grid-area: Gato-calle-5;
+  background-color: tomato;
 }
 
 /* FOOTER */

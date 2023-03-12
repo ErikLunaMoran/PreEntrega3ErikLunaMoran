@@ -2,37 +2,36 @@
 
 .nov-section {
   background-color: rgb(146, 146, 146);
-}
 
-.gato-nov {
-  /* width: 30%; */
-  background-color: rgb(112, 112, 112);
-  padding: 1rem;
-  border-radius: 1rem;
-  display: inline-block;
-  margin-inline: 1.5%;
-}
+  .container-novedades {
+    margin: 0 auto;
+    width: 80%;
 
-.container-novedades {
-  margin: 0 auto;
-  width: 80%;
-}
+    .carta-novedades {
+      padding: 8rem 0 15rem 0;
 
-.carta-novedades {
-  padding: 8rem 0 15rem 0;
-}
+      .gato-nov {
+        background-color: rgb(112, 112, 112);
+        padding: 1rem;
+        border-radius: 1rem;
+        display: inline-block;
+        margin-inline: 1.5%;
 
-.img-nov {
-  width: 100%;
-}
+        .img-nov {
+          width: 100%;
+        }
 
-.titulo-nov {
-  font-size: 3rem;
-  color: rgb(253, 155, 255);
-  padding-bottom: 2rem;
-}
+        .titulo-nov {
+          font-size: 3rem;
+          color: rgb(253, 155, 255);
+          padding-bottom: 2rem;
+        }
 
-.text-nov {
-  text-align: center;
-  color: white;
+        .text-nov {
+          text-align: center;
+          color: white;
+        }
+      }
+    }
+  }
 }
