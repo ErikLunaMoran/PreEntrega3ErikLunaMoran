@@ -2,7 +2,7 @@
 
 /* Section 1 main*/
 .con-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
 
   .contacto-titulo {
     padding-top: 3rem;
@@ -10,7 +10,7 @@
 
   .text-con {
     text-align: center;
-    color: white;
+    color: $color-p;
     padding-block: 3rem;
     padding-inline: 5%;
     width: 100%;
@@ -19,21 +19,21 @@
 
 /* Section 2 Formulario */
 .con-form-section {
-  background-color: rgb(99, 99, 99);
+  background-color: $color-terciario;
 
   .con-form {
     font-size: 2rem;
-    color: white;
+    color: $color-p;
     padding-block: 2rem;
 
     form {
-      background-color: rgb(146, 146, 146);
+      background-color: $color-secundario;
 
       fieldset {
         width: min(600px, 100%);
         margin: 0 auto;
         padding: 20px;
-        background-color: rgb(146, 146, 146);
+        background-color: $color-secundario;
 
         .macho-hembra {
           display: flex;
@@ -53,7 +53,7 @@
 
 /* Section 3 Iframe Maps */
 .con-map-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
   text-align: center;
   padding-block: 3rem;
 }

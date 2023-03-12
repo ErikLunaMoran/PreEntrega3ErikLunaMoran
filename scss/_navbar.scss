@@ -1,12 +1,15 @@
+/* NavBar Bootstrap */
+
 nav.navbar.navbar-expand-lg.menu.py-3 {
   width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
 }
-
-/* NavBar Bootstrap */
 .menu {
-  background-color: rgb(112, 112, 112);
+  background-color: $color-principal;
 }
-.nav-item a {
-  color: white;
-  font-size: 2rem;
+
+.nav-item {
+  a {
+    color: $color-p;
+    font-size: 2rem;
+  }
 }

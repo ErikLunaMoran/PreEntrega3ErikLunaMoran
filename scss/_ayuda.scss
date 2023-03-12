@@ -2,7 +2,7 @@
 
 /* Section 1 main*/
 .ayuda-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
 
   .ayuda-titulo {
     padding-block: 3rem;
@@ -10,7 +10,7 @@
 
   .text-ayu {
     text-align: center;
-    color: white;
+    color: $color-p;
     padding-bottom: 3rem;
   }
 

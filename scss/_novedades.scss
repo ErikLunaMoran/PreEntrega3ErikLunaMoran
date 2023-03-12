@@ -1,7 +1,7 @@
 /* NOVEDADES */
 
 .nov-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
 
   .container-novedades {
     margin: 0 auto;
@@ -11,7 +11,7 @@
       padding: 8rem 0 15rem 0;
 
       .gato-nov {
-        background-color: rgb(112, 112, 112);
+        background-color: $color-principal;
         padding: 1rem;
         border-radius: 1rem;
         display: inline-block;
@@ -23,13 +23,13 @@
 
         .titulo-nov {
           font-size: 3rem;
-          color: rgb(253, 155, 255);
+          color: $color-title;
           padding-bottom: 2rem;
         }
 
         .text-nov {
           text-align: center;
-          color: white;
+          color: $color-p;
         }
       }
     }

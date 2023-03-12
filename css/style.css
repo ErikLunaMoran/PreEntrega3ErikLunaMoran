@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* RESET */
+/* VARIABLES */ /* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -72,11 +72,11 @@ p {
   margin-bottom: -1rem; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
+/* NavBar Bootstrap */
 nav.navbar.navbar-expand-lg.menu.py-3 {
   width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
 }
 
-/* NavBar Bootstrap */
 .menu {
   background-color: rgb(112, 112, 112);
 }
@@ -143,7 +143,7 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 .gatos-section .container-cartitas .section3-titulo {
   padding-top: 2rem;
   font-size: 4rem;
-  color: rgb(253, 155, 255);
+  color: rgb(255, 221, 0);
 }
 .gatos-section .container-cartitas .cartita {
   background-color: rgb(112, 112, 112);
@@ -246,7 +246,7 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 }
 .nov-section .container-novedades .carta-novedades .gato-nov .titulo-nov {
   font-size: 3rem;
-  color: rgb(253, 155, 255);
+  color: rgb(255, 221, 0);
   padding-bottom: 2rem;
 }
 .nov-section .container-novedades .carta-novedades .gato-nov .text-nov {
@@ -363,37 +363,30 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   background-color: black;
   padding-top: 1rem;
 }
-
-.footer-sm {
+.footer .footer-sm {
   background-color: #212121;
 }
-
-.footer-sm-icons {
+.footer .footer-sm .footer-sm-icons {
   text-align: center;
 }
-
-.footer-sm a {
+.footer .footer-sm .footer-sm-icons .text-redes {
+  color: white;
+  margin: 0.5rem 0 1rem 0;
+}
+.footer .footer-sm .footer-sm-icons .text-redes p {
+  font-size: 1.5rem;
+}
+.footer .footer-sm .footer-sm-icons a {
   color: white;
   font-size: 2.3rem;
   padding-inline: 1rem;
 }
-
-.footer-bottom-copy {
+.footer .footer-bottom-copy {
   text-align: center;
   color: gray;
   text-decoration: none;
 }
-
-.footer-bottom-copy p {
-  font-size: 1.5rem;
-}
-
-.text-redes {
-  color: white;
-  margin: 0.5rem 0 1rem 0;
-}
-
-.text-redes p {
+.footer .footer-bottom-copy p {
   font-size: 1.5rem;
 }
 

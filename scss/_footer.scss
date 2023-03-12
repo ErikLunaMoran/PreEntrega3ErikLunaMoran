@@ -3,36 +3,37 @@
 .footer {
   background-color: black;
   padding-top: 1rem;
-}
 
-.footer-sm {
-  background-color: #212121;
-}
+  .footer-sm {
+    background-color: #212121;
 
-.footer-sm-icons {
-  text-align: center;
-}
+    .footer-sm-icons {
+      text-align: center;
 
-.footer-sm a {
-  color: white;
-  font-size: 2.3rem;
-  padding-inline: 1rem;
-}
+      .text-redes {
+        color: $color-p;
+        margin: 0.5rem 0 1rem 0;
 
-.footer-bottom-copy {
-  text-align: center;
-  color: gray;
-  text-decoration: none;
-}
+        p {
+          font-size: 1.5rem;
+        }
+      }
 
-.footer-bottom-copy p {
-  font-size: 1.5rem;
-}
+      a {
+        color: $color-p;
+        font-size: 2.3rem;
+        padding-inline: 1rem;
+      }
+    }
+  }
 
-.text-redes {
-  color: white;
-  margin: 0.5rem 0 1rem 0;
-}
-.text-redes p {
-  font-size: 1.5rem;
+  .footer-bottom-copy {
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
 }

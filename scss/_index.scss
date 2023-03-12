@@ -11,7 +11,7 @@
 /* Section 1 */
 
 .intro-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
   padding-top: 1rem;
 
   .row_index {
@@ -28,7 +28,7 @@
       padding-bottom: 3rem;
     }
     .intro-parrafo {
-      color: white;
+      color: $color-p;
       padding-bottom: 2rem;
     }
   }
@@ -37,7 +37,7 @@
 /* section 2 */
 
 .iconos-section {
-  background-color: rgb(99, 99, 99);
+  background-color: $color-terciario;
   padding: 3rem;
   text-align: center;
 
@@ -55,7 +55,7 @@
 /* section 3 Cartita de Gatos*/
 
 .gatos-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
   padding-block: 3rem;
 
   .container-cartitas {
@@ -65,11 +65,11 @@
     .section3-titulo {
       padding-top: 2rem;
       font-size: 4rem;
-      color: rgb(253, 155, 255);
+      color: $color-title;
     }
 
     .cartita {
-      background-color: rgb(112, 112, 112);
+      background-color: $color-principal;
       padding: 1rem;
       border-radius: 1rem;
       display: inline-block;
@@ -81,15 +81,15 @@
 
       .cartita-titulo {
         font-size: 3rem;
-        color: rgb(253, 155, 255);
+        color: $color-rosa;
       }
 
       .cartita-parrafo {
-        color: white;
+        color: $color-p;
       }
 
       .cartita-boton {
-        background-color: rgb(253, 155, 255);
+        background-color: $color-rosa;
         border: none;
         padding: 1rem;
         border-radius: 1rem;

@@ -2,7 +2,7 @@
 
 /* Section 1 */
 .nos-section {
-  background-color: rgb(146, 146, 146);
+  background-color: $color-secundario;
 
   .titulo-nos {
     padding: 3rem 0 3rem 0;
@@ -10,7 +10,7 @@
 
   .text-nos {
     text-align: center;
-    color: white;
+    color: $color-p;
     padding-bottom: 4rem;
   }
 }
