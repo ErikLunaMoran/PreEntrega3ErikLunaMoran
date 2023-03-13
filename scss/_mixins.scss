@@ -1,0 +1,6 @@
+@mixin box-style($background) {
+  background-color: $background;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-inline: 1.5%;
+}

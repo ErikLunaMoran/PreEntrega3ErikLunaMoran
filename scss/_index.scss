@@ -69,11 +69,8 @@
     }
 
     .cartita {
-      background-color: $color-principal;
-      padding: 1rem;
-      border-radius: 1rem;
+      @include box-style($color-principal);
       display: inline-block;
-      margin-inline: 1.5%;
 
       .cartita-imagen {
         width: 100%;

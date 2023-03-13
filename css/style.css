@@ -149,8 +149,8 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   background-color: rgb(112, 112, 112);
   padding: 1rem;
   border-radius: 1rem;
-  display: inline-block;
   margin-inline: 1.5%;
+  display: inline-block;
 }
 .gatos-section .container-cartitas .cartita .cartita-imagen {
   width: 100%;
@@ -238,8 +238,8 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   background-color: rgb(112, 112, 112);
   padding: 1rem;
   border-radius: 1rem;
-  display: inline-block;
   margin-inline: 1.5%;
+  display: inline-block;
 }
 .nov-section .container-novedades .carta-novedades .gato-nov .img-nov {
   width: 100%;

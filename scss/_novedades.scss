@@ -11,11 +11,8 @@
       padding: 5rem 0 20rem 0;
 
       .gato-nov {
-        background-color: $color-principal;
-        padding: 1rem;
-        border-radius: 1rem;
+        @include box-style($color-principal);
         display: inline-block;
-        margin-inline: 1.5%;
 
         .img-nov {
           width: 100%;
