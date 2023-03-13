@@ -8,7 +8,7 @@
     width: 80%;
 
     .carta-novedades {
-      padding: 8rem 0 15rem 0;
+      padding: 5rem 0 20rem 0;
 
       .gato-nov {
         background-color: $color-principal;
@@ -21,16 +21,16 @@
           width: 100%;
         }
 
-        .titulo-nov {
-          font-size: 3rem;
-          color: $color-title;
-          padding-bottom: 2rem;
-        }
-
         .text-nov {
           text-align: center;
           color: $color-p;
         }
+      }
+
+      .titulo-nov {
+        font-size: 4rem;
+        color: $color-title;
+        padding-bottom: 3rem;
       }
     }
   }

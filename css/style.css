@@ -232,7 +232,7 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   width: 80%;
 }
 .nov-section .container-novedades .carta-novedades {
-  padding: 8rem 0 15rem 0;
+  padding: 5rem 0 20rem 0;
 }
 .nov-section .container-novedades .carta-novedades .gato-nov {
   background-color: rgb(112, 112, 112);
@@ -244,14 +244,14 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 .nov-section .container-novedades .carta-novedades .gato-nov .img-nov {
   width: 100%;
 }
-.nov-section .container-novedades .carta-novedades .gato-nov .titulo-nov {
-  font-size: 3rem;
-  color: rgb(255, 221, 0);
-  padding-bottom: 2rem;
-}
 .nov-section .container-novedades .carta-novedades .gato-nov .text-nov {
   text-align: center;
   color: white;
+}
+.nov-section .container-novedades .carta-novedades .titulo-nov {
+  font-size: 4rem;
+  color: rgb(255, 221, 0);
+  padding-bottom: 3rem;
 }
 
 /* CONTACTO */
