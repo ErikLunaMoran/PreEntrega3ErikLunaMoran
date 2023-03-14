@@ -79,6 +79,12 @@
       .cartita-titulo {
         font-size: 3rem;
         color: $color-rosa;
+
+        &:hover {
+          margin-right: 1vw;
+          transition: margin-right 1s;
+          background-color: rgb(255, 255, 255);
+        }
       }
 
       .cartita-parrafo {
@@ -91,6 +97,15 @@
         padding: 1rem;
         border-radius: 1rem;
         font-size: 1.5rem;
+
+        a {
+          text-decoration: none;
+          color: black;
+
+          &:hover {
+            color: rgb(246, 255, 0);
+          }
+        }
       }
     }
   }

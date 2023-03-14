@@ -159,6 +159,11 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   font-size: 3rem;
   color: rgb(253, 155, 255);
 }
+.gatos-section .container-cartitas .cartita .cartita-titulo:hover {
+  margin-right: 1vw;
+  transition: margin-right 1s;
+  background-color: rgb(255, 255, 255);
+}
 .gatos-section .container-cartitas .cartita .cartita-parrafo {
   color: white;
 }
@@ -168,6 +173,13 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   padding: 1rem;
   border-radius: 1rem;
   font-size: 1.5rem;
+}
+.gatos-section .container-cartitas .cartita .cartita-boton a {
+  text-decoration: none;
+  color: black;
+}
+.gatos-section .container-cartitas .cartita .cartita-boton a:hover {
+  color: rgb(246, 255, 0);
 }
 
 .cartita-imagen,
