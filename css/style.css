@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(255, 171, 69);
   text-align: center;
 }
@@ -84,6 +84,10 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 .nav-item a {
   color: white;
   font-size: 2rem;
+}
+
+.navbar-toggler {
+  text-align: right;
 }
 
 /* INDEX */
@@ -125,7 +129,6 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 .iconos-section .img-iconos {
   display: inline-block;
   margin-inline: 1rem;
-  /* width: 275px;  Corrección de bootstrap que afectaba dimensiones */
 }
 .iconos-section .img-iconos h2 {
   width: 260px; /* Corrección de bootstrap que afectaba dimensiones */
@@ -373,20 +376,23 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
 /* FOOTER */
 .footer {
   background-color: black;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .footer .footer-sm {
   background-color: #212121;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 .footer .footer-sm .footer-sm-icons {
   text-align: center;
 }
 .footer .footer-sm .footer-sm-icons .text-redes {
   color: white;
-  margin: 0.5rem 0 1rem 0;
 }
 .footer .footer-sm .footer-sm-icons .text-redes p {
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .footer .footer-sm .footer-sm-icons a {
   color: white;
@@ -397,6 +403,8 @@ nav.navbar.navbar-expand-lg.menu.py-3 {
   text-align: center;
   color: gray;
   text-decoration: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .footer .footer-bottom-copy p {
   font-size: 1.5rem;
