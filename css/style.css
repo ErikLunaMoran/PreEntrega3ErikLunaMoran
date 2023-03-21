@@ -73,21 +73,12 @@ p {
 }
 
 /* NavBar Bootstrap */
-nav.navbar.navbar-expand-lg.menu.py-3 {
-  width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
-}
-
-.menu {
-  background-color: rgb(112, 112, 112);
-}
-
-.nav-item a {
-  color: white;
+.navegacion__enlace {
   font-size: 2rem;
+  color: white;
 }
-
-.navbar-toggler {
-  text-align: right;
+.navegacion__enlace:hover {
+  color: rgb(255, 221, 0);
 }
 
 /* INDEX */

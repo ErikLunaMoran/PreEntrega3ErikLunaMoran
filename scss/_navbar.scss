@@ -1,19 +1,10 @@
 /* NavBar Bootstrap */
 
-nav.navbar.navbar-expand-lg.menu.py-3 {
-  width: 600px; /* Corrección de bootstrap que afectaba dimensiones */
-}
-.menu {
-  background-color: $color-principal;
-}
+.navegacion__enlace {
+  font-size: 2rem;
+  color: $color-p;
 
-.nav-item {
-  a {
-    color: $color-p;
-    font-size: 2rem;
+  &:hover {
+    color: $color-title;
   }
-}
-
-.navbar-toggler {
-  text-align: right;
 }
