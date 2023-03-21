@@ -27,13 +27,18 @@
     padding-block: 2rem;
 
     form {
-      background-color: $color-secundario;
+      /* background-color: $color-secundario; */
 
       fieldset {
         width: min(600px, 100%);
         margin: 0 auto;
         padding: 20px;
-        background-color: $color-secundario;
+        /* background-color: $color-secundario; */
+
+        legend {
+          font-size: 3rem;
+          color: $color-rosa;
+        }
 
         .macho-hembra {
           display: flex;

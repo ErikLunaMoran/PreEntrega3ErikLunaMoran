@@ -286,13 +286,17 @@ p {
   padding-block: 2rem;
 }
 .con-form-section .con-form form {
-  background-color: rgb(146, 146, 146);
+  /* background-color: $color-secundario; */
 }
 .con-form-section .con-form form fieldset {
   width: min(600px, 100%);
   margin: 0 auto;
   padding: 20px;
-  background-color: rgb(146, 146, 146);
+  /* background-color: $color-secundario; */
+}
+.con-form-section .con-form form fieldset legend {
+  font-size: 3rem;
+  color: rgb(253, 155, 255);
 }
 .con-form-section .con-form form fieldset .macho-hembra {
   display: flex;
